@@ -1,0 +1,214 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #070066;
+            color: white;
+            padding: 20px;
+        }
+
+        .header h1 {
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            font-weight: bold;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #07006675;
+            padding: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #fff8f8;
+        }
+
+        .nav a:hover {
+            color: #666;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .section h2 {
+            background-color: #0e058d;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            line-height: 1.5;
+        }
+
+        .section ul {
+            list-style-type: none;
+        }
+
+        .section ul li {
+            margin-bottom: 0px;
+        }
+
+        .section ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .section ul li a:hover {
+            color: #666;
+        }
+
+        .footer {
+            background-color: #070066;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .member {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .member img {
+            margin-right: 10px;
+        }
+        .member-name {
+            font-size: larger;
+            font-weight: bold;
+        }
+        #logo {
+            width: 293px;
+            height: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <!--<div><img src="cs.png" alt="logo" id="logo"></div>
+            <div>-->
+                <h1>华东师范大学 大数据智能系统实验室</h1>
+                <h1>Big Data and Intelligent System Lab</h1>
+            <!--</div>-->
+        </div>
+        <div class="nav">
+            <a href="#intro">团队简介</a>
+            <a href="#members">团队师资力量</a>
+            <a href="#papers">近期代表性学术成果</a>
+            <a href="#contact">联系方式</a>
+        </div>
+        <div class="section" id="intro">
+            <h2>团队简介</h2>
+            <p>大数据智能系统团队围绕下一代高效能大数据系统和智能系统的几个核心方向，包括大数据处理、先进存储、嵌入式系统、物联网、分布式系统等展开理论与应用研究。在理论方面，依托大数据与智能系统实验室、教育部软硬件协同创新工程中心等平台，围绕国家发展需求展开研究工作。主要针对目前和下一代大数据系统中存在的新型存储器件、新型网络系统、新兴应用需求之间的矛盾，结合存储技术、嵌入式系统技术、网络技术等技术手段，实现高性能、高可靠、高稳定、高质量的新一代大数据系统。研究重点突破内容包括：大数据智能系统、先进存储与智能系统，并行/分布式结构与计算，先进存储与低延迟数据处理系统，内存计算与存内系统，嵌入式软件与系统，物联网和先进网络，调度与资源分配、优化算法等，相关工作得到国家863项目、自然科学基金重点项目、国家自然科学基金面上项目、青年项目、企业重大课题等支持。应用方面，围绕企事业单位工程需求展开工作，帮助企业解决实际问题。相关成果已经在联想企业、华为等国内顶尖企业集团的相关产品中落地实施，实现了亿级的产业贡献。团队近年来在大数据系统、嵌入式系统领域的顶级期刊/会议 IEEE MICRO, DAC, ATC, ESWEEK, TC, TCAD, TPDS等上发表论文超过数百篇。团队人员包括国家千人计划人才、长江学者、海外杰青、华东师范大学特聘教授沙行勉，特聘教授诸葛晴凤，华东师范大学海内外公开招聘教授石亮，以及多位优秀的教授和研究人员。团队所培养的学生均进入国内顶尖企业，包括华为（华为天才少年岗）、腾讯、奇虎360、政府部门，部分学生进入海内外高校任职。</p>
+        </div>
+        <!-- <div class="section" id="members">
+            <h2>实验室成员</h2>
+            <div class="member">
+                <img src="张三.jpg" alt="张三" width="100" height="100">
+                <p>张三</p>
+                <p>AAA</p>
+            </div>
+            <div class="member">
+                <img src="李四.jpg" alt="李四" width="100" height="100">
+                <p>李四</p>
+                <p>BBB</p>
+            </div>
+            <div class="member">
+                <img src="王五.jpg" alt="王五" width="100" height="100">
+                <p>王五</p>
+                <p>CCC</p>
+            </div>
+            <div class="member">
+                <img src="赵六.jpg" alt="赵六" width="100" height="100">
+                <p>赵六</p>
+                <p>DDD</p>
+            </div>
+        </div> -->
+        <div class="section" id="members">
+            <h2>团队师资力量</h2>
+            <div class="member">
+                <img src="sha.jpg" alt="沙行勉教授" width="200" height="200">
+                <div>
+                    <p class="member-name">沙行勉 教授</p>
+                    <p>国家特聘专家、杰青、博士生导师，美国普林斯顿大学计算机科学博士。主要研究方向：大数据系统，高性能智能计算，先进存储，并行/分布式系统与计算，嵌入式系统，调度与资源分配等，在相关研究领域是国际学术界最前沿的学者之一。在相关国际学术会议及国际核心期刊上发表英文学术论文460余篇，论文他引次数4000余次。曾担任多个国际会议的会议主席或程序委员会委员，并负责多个期刊的编审工作。获各类国家级教学、科研奖项30多项，其中包括世界顶级期刊ACM Transactions on Design Automation of Electronic Systems颁发的年度最佳论文奖，IEEE Transactions on Computers 颁发的年度代表性论文奖，Ad Hoc Networks颁发的最高被引研究奖，以及多个CCF推荐的重要国际学术会议最佳论文奖，著有《计算机导论—以Python为舟》和《编程导论—以Python为舟》两部教科书，获得清华大学出版社2019年最畅销图书奖。</p>
+                    <p>沙老师所主持的大数据智能系统实验室致力于研究面向未来的智能系统和大数据处理系统，得到国家及高科技企业界，如华为、联想的大力支持与合作，实验室注重团队合作与动手能力的培养，所培养的研究生全部被高科技企业界争相引进。沙老师以人才培养和教学育人为其终生的志向和兴趣，热爱中国文化哲学，爱惜人才，致力于培养有志青年人才，没有名校情结，海纳百川，有较充足的名额，无论你来自什么学校，都欢迎你前来联系申请。</p>
+                </div>
+            </div>
+            <div class="member">
+                <img src="zhuge.jpg" alt="诸葛晴凤教授" width="200" height="200">
+                <div>
+                    <p class="member-name">诸葛晴凤 教授</p>
+                    <p>博士生导师，复旦大学电子工程学士、硕士，美国德克萨斯大学达拉斯分校计算机科学硕士、博士，曾在世界500强企业任资深信息顾问、系统架构师。主要研究方向：并行系统，高效能内存计算，面向新型智能应用的系统与存储优化，智能化数据存储与数据管理，资源分配与调度，嵌入式系统，软/硬件协同设计等。在相关国际学术会议及国际核心期刊上发表英文学术论文150余篇，论文他引次数2000余次。在多核体系的并行计算效能优化、智能型数据存储与管理优化等领域拥有多项世界领先的技术和研究成果，已申请技术发明专利30多项，其中，国际专利8项。诸葛教授的研究获得多个国家级、省部级、工业界研究项目的支持，是国家科技部863项目负责人、自然科学基金项目负责人。欢迎有志向、有兴趣的学子加入团队。</p>
+                </div>
+            </div>
+            <div class="member">
+                <img src="shi.jpg" alt="石亮教授" width="200" height="200">
+                <div>
+                    <p class="member-name">石亮 教授</p>
+                    <p>博士生导师，上海市计算机学会存储专委主任。在此之前任职重庆大学副教授，博士生导师。中国科学技术大学博士，香港城市大学联合培养博士和博士后。主持了包括国家自然科学基金青年基金，面上基金，华为全球开放基金以及多项中央高校重点项目，参与并完成了2项国家863科技专项和多项华为横向合作项目。在FAST，ATC，MSST，DAC以及TC，TOS，TCAD和TOS等多个国际顶级会议和期刊上发表学术论文90余篇，获得多个国际学术会议最佳论文奖。目前是多个国际会议和期刊的审稿人和评审委员会成员，CCF，ACM，IEEE会员。主要研究方向：大数据、云计算、嵌入式系统、操作系统、存储系统、物联网等。石亮老师培养的学生获得了华为天才少年岗位，年薪超过120万元。其他学生有去往海外深造或者在国内顶尖企业任职重要岗位，大部分学生成就远远超过本人，这也是我最大的荣誉。石亮老师的培养思路就是国际化、个性化和人性化，培养目标为我国的技术发展尽心尽力培养重要人才。石亮老师对人才的评价为能力第一，名额充足，无论你来自哪个学校，只要你足够优秀，欢迎联系申请。</p>
+                </div>
+            </div>
+            <div class="member">
+                <img src="li.jpg" alt="李昌龙副教授" width="200" height="200">
+                <div>
+                    <p class="member-name">李昌龙 副教授</p>
+                    <p>软硬件协同设计与应用教育部工程研究中心成员，中国科学技术大学博士，美国加州大学洛杉矶分校联合培养博士，香港城市大学博士后，入选上海市领军人才计划、上海市揽蓄人才计划、香港引入内地人才计划。曾任职华为消费者BG操作系统部，期间负责的内存扩展技术登上华为Mate40手机发布会，获得余承东总裁重点介绍。近年主持或参与完成了军委科技委、自然科学基金委、上海市科委的多个科研项目，先后以第一/通讯作者在FAST、EuroSys、DAC、TCAD、TSC等CCF-A类会议或期刊上发表论文，研究工作获得科技部《中国高新科技》的专访和报道，成果先后被美国西门子医疗全球副总裁Dorin Comaniciu、美国贝尔实验室研究员Yennun Huang、香港中文大学研究生部主任Pheng Ann Heng以及多位IEEE/ACM Fellow关注并引用。</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="papers">
+            <h2>近期代表性学术成果</h2>
+            <ul>
+            <!--2023-->
+                <li><a>Rui Xu, Edwin Hsing-Mean Sha, Qingfeng Zhuge, Yuhong Song, Han Wang, Liang Shi, Optimizing Data Placement for Hybrid SRAM+Racetrack Memory SPM in Embedded Systems, TCAD 2023.</a></li>
+                <li><a>Yina Lv, Liang Shi, Qiao Li, Congming Gao, Yunpeng Song, Longfei Luo, Youtao Zhang, MGC: Multiple-Gray-Code for 3D NAND Flash based High-Density SSDs, HPCA 2023.</a></li>
+                <li><a>Changlong Li, Yu Liang, Rachata Ausavarungnirun, Zongwei Zhu, Liang Shi, Chun Jason Xue, ICE: Collaborating Memory and Process Management for User Experience on Resource-limited Mobile Devices, EuroSys 2023.</a></li>
+            <!--2022-->  
+                <li><a>Yina Lv, Liang Shi, Longfei Luo, Changlong Li, Chun Jason Xue, Edwin H.-M. Sha, Tail Latency Optimization for LDPC-Based High-Density and Low-Cost Flash Memory Devices, TCAD 2022</a></li>
+                <li><a>Congming Gao, Min Ye, Chun Jason Xue, Youtao Zhang, Liang Shi, Jiwu Shu, Jun Yang, Reprogramming 3D TLC Flash Memory based Solid State Drives, TOS 2022.</a></li>
+                <li><a>Longfei Luo, Dingcui Yu, Liang Shi, Chuanming Ding, Changlong Li, Edwin H.-M. Sha, CDB: critical data backup design for consumer devices with high-density flash based hybrid storage, DAC 2022.</a></li>
+                <li><a>Yu Liang, Riwei Pan, Tianyu Ren, Yufei Cui, Rachata Ausavarungnirun, Xianzhang Chen, Changlong Li*, Tei-Wei Kuo, Chun Jason Xue, CacheSifter: Sifting Cache Files for Boosted Mobile Performance and Lifetime, FAST 2022.</a></li>
+            <!--2021-->      
+                <li><a>Changlong Li, Liang Shi, Chun Jason Xue, MobileSwap: Cross-Device Memory Swapping for Mobile Devices, DAC 2021.</a></li>
+
+
+            </ul>
+        </div>
+        <div class="section" id="contact">
+            <h2>联系方式</h2>
+            <p>如果你对我们实验室有兴趣，欢迎加入我们！联系方式如下：</p>
+            <ul>
+                <li>沙行勉老师邮箱：edwinsha@cs.ecnu.edu.cn</li>
+                <li>诸葛晴凤老师邮箱：qfzhuge@cs.ecnu.edu.cn</li>
+                <li>石亮老师邮箱：lshi@cs.ecnu.edu.cn</li>
+                <li>李昌龙老师邮箱：clli@cs.ecnu.edu.cn</li>
+                <li>实验室地址：上海市 普陀区 中山北路3663号 华东师范大学 理科大楼 B520、B230</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>版权所有 © 华东师范大学 大数据智能系统实验室</p>
+        </div>
+    </div>
+</body>
+</html>
